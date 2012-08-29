@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">TextSpeechDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+	<string name="back">Back</string>
+	<string name="input">Input</string>
+	<string name="again">Speak</string>
+	<string name="setpitch">Set Pitch</string>
+	<string name="setspeed">Set Speed</string>
+	<string name="red">red</string>
+	<string name="white">#FF00FF</string>
+    
+</resources>

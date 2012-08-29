@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+>
+	<EditText
+	    android:id="@+id/inputtext"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_margin="10dp"
+	    android:inputType="textShortMessage|textNoSuggestions|textMultiLine"
+	    android:textSize="16dp"
+	    android:text="@string/input"
+	    android:singleLine="false"
+	    android:minLines="3"
+	    android:gravity="top|left"
+	/>
+	<Button
+        android:enabled="false"
+        android:id="@+id/again_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/again"
+        android:layout_gravity="center_horizontal"
+	/>
+	<SeekBar
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:max="19"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/pitchslider"
+        android:progress="9"
+	/>
+    <Button
+        android:id="@+id/set_pitch"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/setpitch"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+    />
+    <SeekBar
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:max="19"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/speedslider"
+        android:progress="9"
+    />
+    <Button
+        android:id="@+id/set_speed"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/setspeed"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+    />
+            
+</LinearLayout>
